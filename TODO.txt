@@ -9,3 +9,4 @@ _ move ngrams into its own module
 _ add a corpus API with storage backends
 _ support metadata for corpus texts (URL, date, etc.)
 _ add storage backends for segmenter models
+_ strip JavaScript from HTML

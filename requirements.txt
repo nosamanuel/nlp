@@ -1,4 +1,6 @@
 PyYAML==3.10
+html5lib==0.95
+lxml==2.3.5
 nltk==2.0.2
 nose==1.1.2
 numpy==1.6.2
