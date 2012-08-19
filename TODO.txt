@@ -1,0 +1,11 @@
+_ better API for language-specific models:
+
+    # hints to accommodate registers (Twitter, headlines, chat, etc.)
+    tokenizers.get_for_language(name="spanish", **hints)
+    segmenters.get_for_language(iso3="esp", **hints)
+    lemmatizers.get_for_language(iso2="es", **hints)
+
+_ move ngrams into its own module
+_ add a corpus API with storage backends
+_ support metadata for corpus texts (URL, date, etc.)
+_ add storage backends for segmenter models
